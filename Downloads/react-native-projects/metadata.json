@@ -1,0 +1,6 @@
+{
+  "name": "SnapDeck AI",
+  "description": "Instant camera-to-flashcard generator. Snap textbook pages or handwritten notes and get 20 high-accuracy study flashcards in seconds.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

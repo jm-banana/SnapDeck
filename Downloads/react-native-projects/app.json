@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "SnapDeck AI",
+    "slug": "snapdeck-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0B0F19"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "SnapDeck AI requires camera access to snap textbook pages and handwritten study notes to generate flashcards.",
+        "NSPhotoLibraryUsageDescription": "SnapDeck AI requires access to select study notes and textbook photos from your library."
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "package": "com.snapdeck.ai"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "SnapDeck AI requires camera access to snap textbook pages and handwritten study notes."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "SnapDeck AI requires photo access to generate flashcards from your textbook images."
+        }
+      ]
+    ]
+  }
+}

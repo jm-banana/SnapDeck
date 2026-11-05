@@ -1,0 +1,5 @@
+2026-09-02T07:47:18.084Z [INFO] Shell completions: no supported shell detected, skipping
+2026-09-02T07:47:18.089Z [INFO] Starting CLI in server mode (stdio)
+2026-09-02T07:47:18.097Z [INFO] Starting CLI in stdio mode (Rust JSON-RPC engine)
+2026-09-02T07:47:18.173Z [INFO] CLI server ready (stdio mode, Rust JSON-RPC engine)
+2026-09-02T07:47:18.173Z [INFO] Server started, waiting for requests
